@@ -1,0 +1,2 @@
+import React from 'react';import {site} from '../data';import {scrollTo} from '../lib/anim';
+export default function Footer(){return <footer className="flex flex-wrap items-center justify-between gap-4 px-6 py-8 text-xs uppercase tracking-widest md:px-10"><a href={`mailto:${site.email}`} data-cursor="Email">{site.email}</a><span>© {new Date().getFullYear()} {site.name}</span><button onClick={()=>scrollTo('top')} data-cursor="Top">Back to top ↑</button></footer>}

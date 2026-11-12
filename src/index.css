@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{background:#0a0a0a}body{background:#0a0a0a;color:#ece7df;font-family:Inter,sans-serif;overflow-x:hidden}
+html.lenis{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}.lenis.lenis-stopped{overflow:hidden}
+@media (pointer:fine){*{cursor:none!important}}
+.line{overflow:hidden;display:block}.hide-sb::-webkit-scrollbar{display:none}
+.stroke{-webkit-text-stroke:1px #ece7df;color:transparent}

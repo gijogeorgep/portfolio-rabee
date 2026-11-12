@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{colors:{ink:'#0a0a0a',bone:'#ece7df',ember:'#e8552d'},fontFamily:{serif:['Fraunces','serif'],sans:['Inter','sans-serif']}}}}
